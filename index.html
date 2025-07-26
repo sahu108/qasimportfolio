@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammad Qasim | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="darkToggle">🌙 Toggle Dark Mode</button>
+
+  <nav>
+    <ul class="navbar">
+      <li><a href="#" class="box">🏠 Home</a></li>
+      <li><a href="#about" class="box">🙋‍♂️ About</a></li>
+      <li><a href="#projects" class="box">💼 Projects</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <img src="image.jpeg" alt="Qasim Profile" class="profile-img" />
+    <h1>Muhammad Qasim</h1>
+    <p>Web Developer / Freelancer / Coder</p>
+  </header>
+
+  <section id="about" class="section">
+    <h2>💬 About Me</h2>
+    <p>
+      I am a professional front-end web developer from Pakistan, skilled in HTML, CSS, and JavaScript.
+      I build beautiful, clean, and user-friendly websites with responsive designs.
+    </p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>💼 Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio using HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>Modern landing page with animations and form.</p>
+      </div>
+      <div class="project-card">
+        <h3>Freelance Project</h3>
+        <p>Client website with custom styling and layout.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Muhammad Qasim - Web Developer</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("darkToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
